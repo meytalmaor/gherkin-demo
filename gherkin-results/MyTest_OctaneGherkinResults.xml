@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<features version="1"><feature name="" path="src\test\resources\features\Test1-1041.feature" started="1534683945921" tag="@TID1041REV0.2.0"><file><![CDATA[#Auto generated Octane revision tag
-@TID1041REV0.2.0
-Feature:
-	Scenario: Gherkin Demo Scenario
-		Given Some requirements 
-		When This happens
-		Then That happens
-]]></file><scenarios><scenario name="Gherkin Demo Scenario"><steps><step duration="310687400" name="Given Some requirements" status="passed"/><step duration="30900" name="When This happens" status="passed"/><step duration="26800" name="Then That happens" status="passed"/></steps></scenario></scenarios></feature></features>
