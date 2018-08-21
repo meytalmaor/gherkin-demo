@@ -17,4 +17,34 @@ public class MyStepdefs {
     public void thatHappens() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
     }
+
+    @Given("^payment security system is up$")
+    public void paymentSecuritySystemIsUp() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @Given("^a customer named Jane Doe$")
+    public void aCustomerNamedJaneDoe() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @Given("^I am logged in as Jane Doe$")
+    public void iAmLoggedInAsJaneDoe() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @Given("^I have at least one item in cart$")
+    public void iHaveAtLeastOneItemInCart() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @When("^I try to buy items in my cart$")
+    public void iTryToBuyItemsInMyCart() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @Then("^I confirm my payment method Paypal and proceed to checkout\\.$")
+    public void iConfirmMyPaymentMethodPaypalAndProceedToCheckout() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+    }
 }
