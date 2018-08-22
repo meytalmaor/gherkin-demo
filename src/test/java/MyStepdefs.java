@@ -2,13 +2,13 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
 
 public class MyStepdefs {
     @Given("^payment security system is up$")
     public void paymentSecuritySystemIsUp() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        assertTrue(false);
+        fail();
     }
 
     @Given("^a customer named Jane Doe$")
