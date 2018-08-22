@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@TID1042REV0.4.0
+@TID1002REV0.0.1
 Feature: Buying items in shopping cart for many users
 Background:
   Given payment security system is up
