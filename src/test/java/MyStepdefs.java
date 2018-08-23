@@ -71,4 +71,19 @@ public class MyStepdefs {
     public void iCanSeeMyDetails() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
     }
+
+    @Given("^I am a user in the Online Shopping Store$")
+    public void iAmAUserInTheOnlineShoppingStore() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @When("^I click on a laptop$")
+    public void iClickOnALaptop() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @Then("^I am navigated to the laptop details page$")
+    public void iAmNavigatedToTheLaptopDetailsPage() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+    }
 }
