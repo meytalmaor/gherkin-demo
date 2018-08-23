@@ -1,3 +1,4 @@
+import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -54,5 +55,20 @@ public class MyStepdefs {
     public void thatHappens() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         
+    }
+
+    @Given("^I am logged in to my application$")
+    public void iAmLoggedInToMyApplication() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @When("^I open the user profile page$")
+    public void iOpenTheUserProfilePage() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @Then("^I can see my details$")
+    public void iCanSeeMyDetails() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
     }
 }
