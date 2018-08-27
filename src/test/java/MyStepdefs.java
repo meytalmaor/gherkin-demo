@@ -85,6 +85,7 @@ public class MyStepdefs {
     @Then("^I am navigated to the laptop details page$")
     public void iAmNavigatedToTheLaptopDetailsPage() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
+        throw new Exception("The laptop details page did not load properly");
     }
 
     @When("^I click on a laptop\\.$")
