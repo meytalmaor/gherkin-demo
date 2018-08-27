@@ -21,7 +21,7 @@ public class MyStepdefs {
         
     }
 
-    @Given("^I have at least one item in cart$")
+    @Given("^I have at least one item in carts$")
     public void iHaveAtLeastOneItemInCart() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         
@@ -85,5 +85,11 @@ public class MyStepdefs {
     @Then("^I am navigated to the laptop details page$")
     public void iAmNavigatedToTheLaptopDetailsPage() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
+    }
+
+    @When("^I click on a laptop\\.$")
+    public void iClickOnALaptop2() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
     }
 }
